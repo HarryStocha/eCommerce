@@ -1,10 +1,13 @@
-console.disableYellowBox = true; 
+// console.disableYellowBox = true; 
 
+import { LogBox } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import LandingPage from './src/apps/landingpage';
 import Search from './src/apps/search';
 import PDP from './src/apps/pdp';
+
+LogBox.ignoreAllLogs() 
 
 const RootNavigator = createStackNavigator(
 	{
