@@ -1,3 +1,5 @@
+console.disableYellowBox = true; 
+
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import LandingPage from './src/apps/landingpage';
